@@ -21,8 +21,11 @@
 :root {
 
   /* Fonts */
-  --font-default: 'Poppins', system-ui, -apple-system, "Quicksand", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   --font-primary: 'Poppins', sans-serif;
+  --font-default: 'Poppins', system-ui, -apple-system, "Quicksand", Roboto, "Helvetica Neue"
   --font-secondary: 'Poppins', sans-serif;
 
   /* Colors */
@@ -33,7 +36,7 @@
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
-  --color-links: #969D75;
+  --color-links: hwb(71 46% 38%);
   --color-links-hover: #969D75;
 
   /* Primay colors */
